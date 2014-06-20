@@ -42,5 +42,7 @@ The `loc_export.json` file contains a dump of all the above files inside a singl
 
 
 ###Notes
+The data here reflects Huffington Posts's June 19, 2014, calculations of recent Medicare data. Some surveys and data points provided by The Centers for Medicare and Medicaid Services may be missing or out of date, because the regulator is not legally required to validate each entry.
 
-Some recent surveys (occurring in 2013) were not provided in the original database owing to delays by state health departments in transferring the latest reports, or by the Centers for Medicare and Medicaid Services in processing them.
+###Corrections
+June 20, 2014: Mt. Hood Hospice, Inc. was incorrectly reported by Medicare as a for-profit provider. This page has been updated to reflect their nonprofit status.
