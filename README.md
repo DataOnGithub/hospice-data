@@ -15,9 +15,9 @@ The `hospices_export.csv` file describes 4,252 hospice providers where at least 
 6. ZIP Code
 7. Ownership type - simple: A grouped categorization of the CMS provider owner type. Options are **nonprofit**, **for-profit**, **government**, **other**
 8. Ownership type - detailed: The CMS/Casper field fully describing the owner type
-9. Total surveys: The number of full certification surveys. The Office of the Inspector General recommends that hospices be fully inspected and certified once every six years. CMS maintains three survey classifications: **standard/certification**, **complaint** and **federal monitoring surveys**. Only **certification** surveys are counted here.
-10. Date of last certification survey: The date of the most recent **certification** survey.
-11. Date calculated: Date data is valid through. To find the amount of time since the last survey take the difference between this field and **Date of last certification survey**.
+9. Total surveys: The number of full government certification surveys. The Office of the Inspector General recommends that hospices be fully inspected and certified once every six years. CMS maintains three survey classifications: **standard/certification**, **complaint** and **federal monitoring surveys**. Only **certification** surveys are counted here.
+10. Date of last certification survey: The date of the most recent **certification** survey. This field has been updated to reflect certification surveys conducted by private accreditation organizations. More [here](http://projects.huffingtonpost.com/hospice-inc/database#gotomethodology).
+11. Date calculated: Date data was last updated.
 12. Total deficiencies: Total deficiency (violation) count from all three types of surveys.
 13. Complaint deficiencies: Total deficiencies from **complaint** surveys.
 14. Certification deficiencies: Total deficiencies from **certification** surveys.
