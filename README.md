@@ -5,7 +5,7 @@ The original database was sent by [The Centers for Medicare and Medicaid Service
 
 ##Fields and Files
 
-The `hospices_export.csv` file describes 4,252 hospice providers where at least one full "certification" survey occurred between January 2, 2004 and March 12, 2014.  Fields are as follows:
+The `hospices_export.csv` file describes hospice providers where at least one full "certification" survey occurred between January 2, 2004 and March 21, 2014.  Fields are as follows:
 
 1. Provider ID: The field used by CMS/CASPER applications to uniquely identify a provider (hospice, in this case)
 2. Name: Name of the hospice
@@ -45,4 +45,12 @@ The `loc_export.json` file contains a dump of all the above files inside a singl
 The data here reflects Huffington Posts's June 19, 2014, calculations of recent Medicare data. Some surveys and data points provided by The Centers for Medicare and Medicaid Services may be missing or out of date, because the regulator is not legally required to validate each entry.
 
 ###Corrections
-June 20, 2014: Mt. Hood Hospice, Inc. was incorrectly reported by Medicare as a for-profit provider. This page has been updated to reflect their nonprofit status.
+Pikes Peak Hospice and Palliative Care was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
+Sparrow Hospice was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
+Hospice of Michigan was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
+Harbor Hospice was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
+Mt. Hood Hospice, Inc. was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
