@@ -45,6 +45,8 @@ The `loc_export.json` file contains a dump of all the above files inside a singl
 The data here reflects Huffington Posts's June 19, 2014, calculations of recent Medicare data. Some surveys and data points provided by The Centers for Medicare and Medicaid Services may be missing or out of date, because the regulator is not legally required to validate each entry.
 
 ###Corrections
+Central New Hampshire VNA and Hospice was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
 Pikes Peak Hospice and Palliative Care was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
 
 Sparrow Hospice was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
