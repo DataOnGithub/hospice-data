@@ -1,11 +1,11 @@
-This repo contains processed data used for publication with [Hospice, Inc.](http://projects.huffingtonpost.com/hospice-inc/), published by The Huffington Post on June 19, 2014.
+This repo contains processed data used for publication with [Hospice, Inc.](http://projects.huffingtonpost.com/hospice-inc/), published by The Huffington Post on June 19, 2014. This data was used in part to identify [troubled hospices detailed in story published on Dec. 30, 2014](http://projects.huffingtonpost.com/hospice-inc/top-offending-hospices-rarely-punished).
 
 
-The original database was sent by [The Centers for Medicare and Medicaid Services](http://cms.gov/) on April 1, 2014, in response to a Freedom of Information Act request filed by The Huffington Post.
+The original database was sent by [The Centers for Medicare and Medicaid Services](http://cms.gov/) on April 1, 2014, in response to a Freedom of Information Act request filed by The Huffington Post. An updated version was received on Oct. 24, 2014.
 
 ##Fields and Files
 
-The `hospices_export.csv` file describes hospice providers where at least one full "certification" survey occurred between January 2, 2004 and March 21, 2014.  Fields are as follows:
+The `hospices_export.csv` file describes hospice providers where at least one full "certification" survey occurred between January 2, 2004 and Oct. 16, 2014.  Fields are as follows:
 
 1. Provider ID: The field used by CMS/CASPER applications to uniquely identify a provider (hospice, in this case)
 2. Name: Name of the hospice
@@ -15,13 +15,16 @@ The `hospices_export.csv` file describes hospice providers where at least one fu
 6. ZIP Code
 7. Ownership type - simple: A grouped categorization of the CMS provider owner type. Options are **nonprofit**, **for-profit**, **government**, **other**
 8. Ownership type - detailed: The CMS/Casper field fully describing the owner type
-9. Total surveys: The number of full government certification surveys. The Office of the Inspector General recommends that hospices be fully inspected and certified once every six years. CMS maintains three survey classifications: **standard/certification**, **complaint** and **federal monitoring surveys**. Only **certification** surveys are counted here.
-10. Date of last certification survey: The date of the most recent **certification** survey. This field has been updated to reflect certification surveys conducted by private accreditation organizations. More [here](http://projects.huffingtonpost.com/hospice-inc/database#gotomethodology).
-11. Date calculated: Date data was last updated.
-12. Total deficiencies: Total deficiency (violation) count from all three types of surveys.
-13. Complaint deficiencies: Total deficiencies from **complaint** surveys.
-14. Certification deficiencies: Total deficiencies from **certification** surveys.
-15. FMS deficiencies: Total deficiencies from **federal monitoring surveys**.
+9. Total surveys: The number of all surveys conducted by state inspectors. The Office of the Inspector General recommends that hospices be fully inspected and certified once every six years. CMS maintains three survey classifications: **standard/certification**, **complaint** and **federal monitoring surveys**.
+10. Total certification surveys: The number of full government certification surveys. 
+11. Total complaint surveys: The number of complaint surveys. 
+12. Date of last certification survey: The date of the most recent **certification** survey. This field has been updated to reflect certification surveys conducted by private accreditation organizations. More [here](http://projects.huffingtonpost.com/hospice-inc/database#gotomethodology).
+13. Total deficiencies: Total deficiency (violation) count from all three types of surveys.
+14. Complaint deficiencies: Total deficiencies from **complaint** surveys.
+15. Certification deficiencies: Total deficiencies from **certification** surveys.
+16. FMS deficiencies: Total deficiencies from **federal monitoring surveys**.
+17. Is active: Indicates if the hospice is still actively providing care.
+18. Deemed: Indicates if the hospice is inspected by an accrediting organization.
 
 Because the data is nested, some fields must be looked up in additional files.
 
@@ -42,9 +45,16 @@ The `loc_export.json` file contains a dump of all the above files inside a singl
 
 
 ###Notes
-The data here reflects Huffington Posts's June 19, 2014, calculations of recent Medicare data. Some surveys and data points provided by The Centers for Medicare and Medicaid Services may be missing or out of date, because the regulator is not legally required to validate each entry.
+The data here reflects Huffington Posts's Oct. 24, 2014 calculations of recent Medicare data. Some surveys and data points provided by The Centers for Medicare and Medicaid Services may be missing or out of date, because the regulator is not legally required to validate each entry.
 
-###Corrections
+
+###Updates
+Added fields describing total counts for different types of surveys. Added fields describing whether each hospice is active and if each hospice is inspected by an accrediting organization. Removed date calculated field.
+
+Med West-Harris Hospice was fully certified more recently than Medicare data indicated.
+
+Community Hospice of Northeast Florida was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
 Central New Hampshire VNA and Hospice was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
 
 Pikes Peak Hospice and Palliative Care was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
@@ -56,3 +66,4 @@ Hospice of Michigan was incorrectly reported by Medicare as a for-profit provide
 Harbor Hospice was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
 
 Mt. Hood Hospice, Inc. was incorrectly reported by Medicare as a for-profit provider. The data was updated to reflect their nonprofit status.
+
