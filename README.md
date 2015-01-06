@@ -1,4 +1,4 @@
-This repo contains processed data used for publication with [Hospice, Inc.](http://projects.huffingtonpost.com/hospice-inc/), published by The Huffington Post on June 19, 2014. This data was used in part to identify [troubled hospices detailed in story published on Dec. 30, 2014](http://projects.huffingtonpost.com/hospice-inc/top-offending-hospices-rarely-punished).
+This repo contains processed data used for publication with [Hospice, Inc.](http://projects.huffingtonpost.com/hospice-inc/), published by The Huffington Post on June 19, 2014. This data was used in part to identify [troubled hospices detailed in a Dec. 30, 2014 story](http://projects.huffingtonpost.com/hospice-inc/top-offending-hospices-rarely-punished).
 
 
 The original database was sent by [The Centers for Medicare and Medicaid Services](http://cms.gov/) on April 1, 2014, in response to a Freedom of Information Act request filed by The Huffington Post. An updated version was received on Oct. 24, 2014.
